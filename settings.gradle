@@ -1,1 +1,1 @@
-include ':app', ':library-recyclerview', ':material-spinner-1.0.5'
+include ':app', ':lib-recyclerview', ':material-spinner-1.0.5'
