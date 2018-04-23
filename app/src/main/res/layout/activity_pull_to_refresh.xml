@@ -1,0 +1,31 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/bg"
+    >
+
+
+  <android.support.design.widget.FloatingActionButton
+      android:id="@+id/btn_reset"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      app:backgroundTint="@color/color_light_blue"
+      android:src="@mipmap/reset_icon"
+      android:layout_margin="20dp"
+      android:layout_gravity="end|bottom"
+      />
+
+  <android.support.v4.widget.SwipeRefreshLayout
+      android:id="@+id/swipeLayout"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical"
+      >
+
+    <com.chad.library.adapter.base.LoadMoreRecyclerView
+        android:id="@+id/rv_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+  </android.support.v4.widget.SwipeRefreshLayout>
+
+</FrameLayout>

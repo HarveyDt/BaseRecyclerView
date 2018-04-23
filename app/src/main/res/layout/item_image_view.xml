@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="90dp"
+    android:layout_height="90dp"
+    >
+
+  <ImageView
+      android:id="@+id/iv"
+      android:layout_width="90dp"
+      android:layout_height="90dp"
+      android:layout_gravity="center"
+      android:src="@mipmap/click_head_img_0"
+      />
+</android.support.v7.widget.CardView>
