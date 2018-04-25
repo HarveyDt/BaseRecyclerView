@@ -20,6 +20,7 @@
     <activity android:name=".PullToRefreshUseActivity" />
     <activity android:name=".MultiplelItemActivity" />
     <activity android:name=".MultipleItemRvAdapterUseActivity" />
+    <activity android:name=".PinnedSectionActivity" />
 
   </application>
 

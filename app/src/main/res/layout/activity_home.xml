@@ -17,7 +17,19 @@
       android:layout_marginLeft="20dp"/>
 
   <Button
-      android:id="@+id/btn1"
+    android:id="@+id/btn1"
+    android:layout_width="wrap_content"
+    android:layout_height="33dp"
+    android:background="@drawable/touch_bg"
+    android:gravity="center"
+    android:text="MultiplelItem"
+    android:layout_below="@+id/tweetText"
+    android:textColor="@color/txt_color"
+    android:layout_marginBottom="15dp"
+    android:layout_marginLeft="20dp"/>
+
+  <Button
+      android:id="@+id/btn2"
       android:layout_width="wrap_content"
       android:layout_height="33dp"
       android:background="@drawable/touch_bg"
