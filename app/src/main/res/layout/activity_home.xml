@@ -3,41 +3,49 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:gravity="center"
+    android:orientation="vertical"
+    >
+
   <Button
       android:id="@+id/btn"
       android:layout_width="wrap_content"
       android:layout_height="33dp"
+      android:layout_below="@+id/tweetText"
+      android:layout_marginBottom="15dp"
       android:background="@drawable/touch_bg"
       android:gravity="center"
       android:text="PullAndRefresh"
-      android:layout_below="@+id/tweetText"
       android:textColor="@color/txt_color"
-      android:layout_marginBottom="15dp"
-      android:layout_marginLeft="20dp"/>
+      android:paddingLeft="15dp"
+      android:paddingRight="15dp"
+      />
 
   <Button
-    android:id="@+id/btn1"
-    android:layout_width="wrap_content"
-    android:layout_height="33dp"
-    android:background="@drawable/touch_bg"
-    android:gravity="center"
-    android:text="MultiplelItem"
-    android:layout_below="@+id/tweetText"
-    android:textColor="@color/txt_color"
-    android:layout_marginBottom="15dp"
-    android:layout_marginLeft="20dp"/>
+      android:id="@+id/btn1"
+      android:layout_width="wrap_content"
+      android:layout_height="33dp"
+      android:layout_below="@+id/tweetText"
+      android:layout_marginBottom="15dp"
+      android:background="@drawable/touch_bg"
+      android:gravity="center"
+      android:text="MultiplelItem"
+      android:textColor="@color/txt_color"
+      android:paddingLeft="15dp"
+      android:paddingRight="15dp"
+      />
 
   <Button
       android:id="@+id/btn2"
       android:layout_width="wrap_content"
       android:layout_height="33dp"
+      android:layout_below="@+id/tweetText"
       android:background="@drawable/touch_bg"
       android:gravity="center"
-      android:text="MultiplelItem"
-      android:layout_below="@+id/tweetText"
+      android:text="PinnedSection"
       android:textColor="@color/txt_color"
-      android:layout_marginBottom="15dp"
-      android:layout_marginLeft="20dp"/>
+      android:paddingLeft="15dp"
+      android:paddingRight="15dp"
+      />
 
 </LinearLayout>
